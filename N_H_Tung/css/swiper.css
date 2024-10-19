@@ -1,0 +1,54 @@
+.swiper-main{
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white !important;
+    transition: 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    transform: scale(1.1);
+}
+
+[class*="slide_"]{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide_1 {
+    background-image: url('../img/1.jpeg');
+    background-position: center center;
+}
+
+.slide_2 {
+    background-image: url('../img/2.webp');
+    background-position: center right;
+}
+
+.slide_3 {
+    background-image: url('../img/3.jpeg');
+    background-position: center ;
+}
+
+.slide_4 {
+    background-image: url('../img/4.jpeg');
+    background-position: center right;
+}
+
+.slide_5 {
+    background-image: url('../img/5.jpeg');
+    background-position: center right;
+}
+
+.slide_6 {
+    background-image: url('../img/6.jpeg');
+    background-position: center ;
+}
+
+.slide_7 {
+    background-image: url('../img/7.jpeg');
+    background-position: center right;
+}

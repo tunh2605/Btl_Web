@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading-content {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #333;
+}
+
+.title-film-coming-soon {
+    color: #fff;
+}
+
+.link-film-showing::after {
+    content: "";
+    border: 1px solid #fff;
+    margin: 0 8px;
+}
+
+.link-film-showing {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-film-showing:hover {
+    color: #ffe387;
+}
+
+.content-film-coming-soon {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.film-coming-soon {
+    padding: 8px;
+    background-image: linear-gradient(#1c648a, #0e3448);
+    position: relative;
+}
+
+.main-content {
+    top: 25px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+/* PHIM */
+.film-main {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.card-film img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit:contain;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ffe387;
+    opacity: 1;
+}

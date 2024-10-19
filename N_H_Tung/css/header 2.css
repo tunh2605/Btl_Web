@@ -1,0 +1,58 @@
+*{
+    color: whitesmoke;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color:#181d31;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner{
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.banner a{
+    font-family: 'LT Neo Rounded', sans-serif;
+    color: #ffe387;
+    text-decoration: none;
+    font-size: 80px;    
+    letter-spacing: 10px;    
+    font-weight: bold;
+    margin: 0;
+}
+
+.header{
+    position: sticky;
+    background-color: #1b2544;
+    z-index: 100;
+    top: 0;
+    text-align: center;
+}
+
+.header-bar{
+    height: 50px;
+    width: 50%;    
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-items{
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 25%;
+}
+
+.header-items a{
+    width: 100%;
+
+}
+
+.drop-down{
+    display: none;
+}
+

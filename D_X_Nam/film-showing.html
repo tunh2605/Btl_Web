@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../N_H_Tung/css/header.css">
+    <link rel="stylesheet" href="../N_H_Tung/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+    <title>Phim đang chiếu</title>
+</head>
+<body>
+    <!-- Header -->   
+    <div class="banner">
+        <a href="../index.html">CINEMA</a>
+    </div>
+    <div class="header">
+      <div class="header-bar">
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li>
+                <a href="#">PHIM ĐANG CHIẾU</a>
+              </li>
+              <li>
+                <a href="film-coming-soon.html">PHIM SẮP CHIẾU</a>
+              </li>
+              <li><a href="#">HỆ THỐNG RẠP</a></li>
+              <li><a href="../N_H_Tung/news.html">TIN MỚI & ƯU ĐÃI</a></li>
+              <li><a href="../N_H_Tung/introduce.html">GIỚI THIỆU</a></li>
+            </ul>
+        </div>
+
+        <div class="header-items">
+          <div class="drop">
+            LỊCH CHIẾU
+            <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+            <div class="drop-down">
+                <a href="#">PHIM ĐANG CHIẾU</a>
+                <a href="film-coming-soon.html">PHIM SẮP CHIẾU</a>                    
+            </div>
+          </div>     
+        </div>
+
+        <div class="header-items">
+          <a href="#">HỆ THỐNG RẠP</a>
+        </div>
+
+        <div class="header-items">
+          <a href="../N_H_Tung/news.html">TIN MỚI VÀ ƯU ĐÃI</a>
+        </div>
+
+        <div class="header-items">
+          <a href="../N_H_Tung/introduce.html">GIỚI THIỆU</a>
+        </div>
+   
+      </div>        
+    </div>
+    <div class="grid wide">
+        <div class="content-film-showing">
+            <!-- Heading Title --> 
+            <div class="heading-content">
+                <h1 class="title-film-showing">Phim đang chiếu</h1>
+                <h1>
+                    <a href="film-coming-soon.html" class="link-film-coming-soon">Phim sắp chiếu</a>
+                </h1>
+            </div>
+            <!-- Content -->
+            <div class="main-content">
+                <div class="row">
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/giao-lo-8675.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T13</span>
+                        <h5 class="film-name">GIAO LỘ 8675</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hành động, Tình cảm</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>107 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/vi-thanh-nien.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T15</span>
+                        <h5 class="film-name">VỊ THÀNH NIÊN(400 CÚ ĐẤM)</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Tâm lí, Tội phạm</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>93 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/dat-rung-phuong-nam.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T1</span>
+                        <h5 class="film-name">ĐẤT RỪNG PHƯƠNG NAM</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Phiêu lưu, Gia đình</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>110 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/phong-an-quy-du.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T11</span>
+                        <h5 class="film-name">PHONG ẤN QUỶ DỮ</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>98 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/quy-am.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T4</span>
+                        <h5 class="film-name">QUỶ ÁM: TÍN ĐỒ</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>111 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/cu-may-an-tien.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T2</span>
+                        <h5 class="film-name">CÚ MÁY ĂN TIỀN</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Tâm lí</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>132 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/muon-kiep-nhan-duyen.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T9</span>
+                        <h5 class="film-name">MUÔN KIẾP NHÂN DUYÊN</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Tình cảm</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>106 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/kumanthong.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T10</span>
+                        <h5 class="film-name">KUMANTHONG:QUỶ LINH NHI</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>88 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/biet-doi-danh-thue.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T23</span>
+                        <h5 class="film-name">BIỆT ĐỘI ĐÁNH THUÊ</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hành động, Hồi hộp</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>103 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/mong-du.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T5</span>
+                        <h5 class="film-name">MỘNG DU</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Bí ẩn, Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>94 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/thanh-guom-tru-ta.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T12</span>
+                        <h5 class="film-name">THANH GƯƠM TRỪ TÀ</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hài, Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>133 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/paw-patrol.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T13</span>
+                        <h5 class="film-name">PAW PATROL:PHIM SIÊU ĐẲNG</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hoạt Hình, Phiêu Lưu</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>93 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/ke-kien-tao.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T3</span>
+                        <h5 class="film-name">KẺ KIẾN TẠO</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hành Động, Tâm lí</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>133 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/thanh-pho-ngu-gat.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T7</span>
+                        <h5 class="film-name">THÀNH PHỐ NGỦ GẬT</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hồi hộp, Tội phạm</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>73 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/wolfoo.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T14</span>
+                        <h5 class="film-name">WOLFOO VÀ HÒN ĐẢO KÌ BÍ</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Hài, Hoạt hình</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>100 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    <div class="film-content col l-3 t-4 m-6 c-12">
+                        <div class="film-img-link"><a href="#"><img class="film-img" src="img/vong-nhi.webp" alt="giao lo 8675"></a></div>
+                        <span class="film-rate">T6</span>
+                        <h5 class="film-name">VONG NHI</h5>
+                        <p class="film-category"><strong>Thể loại: </strong>Kinh dị</p>
+                        <p class="film-duration"><strong>Thời lượng: </strong>117 phút</p>
+                        <a class="buy-ticket-link" href="#">
+                            <button class="buy-ticket-btn">
+                                <svg class="buy-ticket-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"></path>
+                                </svg>
+                                Mua vé
+                            </button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+          <div class="footer-cskh-container">
+            <p class="footer-container-title">
+              Chăm sóc khách hàng
+            </p>
+            <div class="footer-content">
+              <p><b>Hotline:</b> 0325 723 681</p>
+              <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
+              <p><b>Email:</b> contact@cinema.com</p>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-contact-title">
+              Kết nối với chúng tôi
+            </p>
+            <div class="footer-social">
+
+                <a href="#">
+                  <img src="../N_H_Tung/img/fb-icon.png" alt="">
+                </a>
+      
+                <a href="#">
+                  <img src="../N_H_Tung/img/yt-icon.png" style="border-radius: 5px;" alt="">
+                </a>
+      
+                <a href="#">
+                  <img src="../N_H_Tung/img/tt-icon.png" alt="">
+                </a>
+      
+              </div>
+          </div>
+      </div>
+    <script src="../N_H_Tung/js/menu.js"></script>
+</body>
+</html>

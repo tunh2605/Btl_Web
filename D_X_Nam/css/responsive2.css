@@ -1,0 +1,24 @@
+/*Mobile*/
+@media (max-width: 707px) {
+    .link-film-showing {
+        display: none;
+    }
+}
+
+@media (min-width:875px) and (max-width:1080px) {
+    .film {
+        flex: 0 0 33.33333%; 
+    }
+}
+
+
+/* Tablet - PC low resolution */
+@media (min-width: 707px) and (max-width: 1080px) {
+    .wide {
+        max-width: 800px;
+    }
+    .row {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}

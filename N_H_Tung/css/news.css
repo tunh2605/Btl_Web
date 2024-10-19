@@ -1,0 +1,170 @@
+/* KHUYEN MAI */
+.discount{
+    display: inline;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.discount-title, .news-title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.discount-container{
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.discount-big-items{
+    position: relative;
+    margin: 0 20px;
+    width: 50%;
+}
+
+.big-items-title{
+    position: absolute;
+    bottom: 5px;
+    background-color: #3262a6;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.discount-img img{
+    width: 100%;
+    aspect-ratio: 4/4;
+    
+}
+
+.discount-items{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 20px 0 0;
+    width: 25%;
+}
+
+/* TIN MOI */
+
+.news{
+    margin: 0 auto; 
+}
+
+.news-container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.news-items{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    background-color: #19376d;
+    padding: 10px;
+    margin: 10px auto; 
+    width: 80%; 
+}
+
+.news-content p a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.news-items .news-content{
+    align-content: center;
+    width: 70%;
+}
+
+.news-items .news-content p{
+    font-size: 14px;
+    flex-wrap: nowrap;
+    text-align: justify;
+    margin: 10px;
+}
+
+.news-items .news-img{
+    width: 30%;
+}
+
+.news-items .news-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #19376d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #4f8de3;
+    transition: 0.2s;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #1a4a8c; 
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width : 749px){
+    .items-title, .big-items-title{
+        font-size: 14px;
+    }
+    /* discount */
+    .discount-container{
+        display: block;
+    }
+    .discount-big-items{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .discount-items{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .items-title{
+        width: 50%;
+        float: left;
+    }
+
+    .items-title p{
+        padding: 20px;
+    }
+
+    .items-img{
+        float: left;
+        width: 50%;
+    }
+    /* news */   
+
+    .news-container{
+        width: 90%;
+    }
+
+    .news-items{
+        display: block;
+    }
+    .news-items .news-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .news-items .news-content{
+        width: 100%;
+    }
+}
+
+
+

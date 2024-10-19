@@ -1,0 +1,70 @@
+.body-title{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.body-title p{
+    -webkit-text-stroke: 1.5px #ffe387;
+    color: transparent;
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+}
+
+.intro-container{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    position: relative;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 0 1%;
+}
+
+.content img{        
+    border-radius: 10px;
+    width: 100%;
+}
+
+.content .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: none;
+    transition: 0.2s ease;
+    text-align: center;
+}
+
+.content:hover img{
+    opacity: 0.3;
+}
+
+.content:hover .title{
+    display: block;
+}
+
+@media only screen and (max-width: 749px) {
+    .body-title{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+    .content {
+        width: 48%;
+        line-height: 30px;
+    }
+}
+    
+
+
+
+
