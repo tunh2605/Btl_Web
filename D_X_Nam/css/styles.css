@@ -59,6 +59,7 @@ body {
 .film-img {
     width: 100%;
     transition: transform ease .3s;
+    height: 384px;
 }
 
 .film-img:hover {
@@ -77,14 +78,14 @@ body {
 }
 
 .film-category {
-    margin-bottom: 6px;
+    margin: 12px 0 6px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .film-duration {
-    margin: 6px 0;
+    margin: 8px 0;
 }
 
 .buy-ticket-btn {
@@ -98,6 +99,10 @@ body {
     box-shadow: 0 4px 4px #999;
 }
 
+.buy-ticket-btn a{
+    text-decoration: none;
+}
+
 .buy-ticket-btn:hover {
     cursor: pointer;
     background-color:rgba(13, 51, 71, 0.9);
@@ -105,4 +110,5 @@ body {
 
 .buy-ticket-icon {
     position: relative;
+    top: 2px;
 }
