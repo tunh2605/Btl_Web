@@ -1,10 +1,10 @@
-# BTL WEB DESIGN CNTT UTC 2023
+# BTL_WEB_DESGIN_NHOM10
 
-[Website]()
+[Website](https://tunh2605.github.io/btl_web/)
 
-**Nguyễn Mạnh Hùng**  
-**Nguyễn Hà Kiên**  
-**Phan Thùy Linh**  
-**Vàng Vũ Trang**
+**Nguyễn Hoàng Tùng**  
+**Dương Xuân Nam**  
+**Trần Công Việt**  
+**Hoàng Tiến Đạt**
 
 
