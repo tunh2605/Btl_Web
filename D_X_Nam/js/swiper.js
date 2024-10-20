@@ -28,8 +28,8 @@ const film_main = new Swiper('.film-main', {
             slidesPerView: 3,
         }
     },
-    autoplay: {
-        delay: 3000,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    // },
 });
 
