@@ -7,13 +7,10 @@
 body{
     background-color: #000718 !important;
     background-image: url('../img/background.jpg');
-    background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    padding: 0;
     margin: 0 auto;
-    position: relative;
 }
 
 .banner{
@@ -22,7 +19,7 @@ body{
 }
 
 .banner a{
-    font-family: 'LT Neo Rounded', sans-serif !important;
+    font-family: 'LT Neo Rounded', sans-serif;
     color: #ffe387;
     text-decoration: none;
     font-size: 80px;    
@@ -44,7 +41,6 @@ body{
 .header-bar{
     display: flex;
     width: 70%;    
-    display: flex;
     margin: 0 auto;
 }
 
@@ -98,7 +94,7 @@ body{
 .drop-down a{
     display: block;
     padding: 11px; 
-    color: #fff !important;
+    color: #fff;
     text-decoration: none;
     transition: 0.2s ease;
 }
@@ -109,7 +105,7 @@ body{
 
 .drop-down a:hover{
     transform: scale(1.05);
-    color: #ffe387 !important;
+    color: #ffe387;
 }
 
 .header-items > a:hover, .drop:hover{
