@@ -83,22 +83,20 @@
 
 .more{
     display: flex;
+    width: 100%;    
+    justify-content: center;
 }
 
-.more button{
-    margin: 0 auto;
+.more a button{  
+    font-size: 14px;
+    font-family: 'LT Neo Rounded', sans-serif !important;
+    text-decoration: none;
+    color: black;
     padding: 10px ;
     background-color: rgb(249, 235, 209);
     border: 2px solid #8e7821;
     border-radius: 10px;
-    transition: 0.2s ease;
-}
-
-.more button a{  
-    font-size: 14px;
-    font-family: 'LT Neo Rounded', sans-serif !important;
-    text-decoration: none;
-    color: black; 
+    transition: 0.2s ease; 
 }
 
 .more button:hover{
