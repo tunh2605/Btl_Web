@@ -71,6 +71,7 @@
 .news-content p a{
     font-weight: bold;
     font-size: 18px;
+    color: #fff;
 }
 
 .news-items .news-content{
@@ -94,27 +95,24 @@
     border-radius: 10px;
 }
 
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #19376d;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    border: 1px solid #4f8de3;
-    transition: 0.2s;
+.news-more{
+    display: flex;
+    justify-content: center;
 }
-
-button a{
+.news-more a button{  
+    font-size: 14px;
+    font-family: 'LT Neo Rounded', sans-serif !important;
     text-decoration: none;
+    color: black;
+    padding: 10px ;
+    background-color: rgb(249, 235, 209);
+    border: 2px solid #8e7821;
+    border-radius: 10px;
+    transition: 0.2s ease; 
 }
 
-button:hover {
-    background-color: #1a4a8c; 
+.news-more button:hover{
+    background-color: #ffe387;
     transform: scale(1.1);
 }
 
@@ -128,12 +126,12 @@ button:hover {
     }
     .discount-big-items{
         width: 100%;
-        margin: 0 auto;
+        margin: 10px auto;
     }
     .discount-items{
         display: flex;
         width: 100%;
-        margin: 0 auto;
+        margin: 10px auto;
     }
     .items-title{
         width: 50%;
