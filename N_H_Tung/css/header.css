@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #000718;
+    background-color: #000718 !important;
     background-image: url('../img/background.jpg');
     background-position:top;
     background-repeat: no-repeat;
