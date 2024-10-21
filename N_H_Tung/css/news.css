@@ -6,11 +6,22 @@
 }
 
 .discount-title, .news-title{
-    font-weight: bold;
     text-align: left;
     font-size: 30px;
     margin: 30px;
     letter-spacing: 2px;
+    color : #fff;
+    --color1: #ffe387;
+    --color2: #ffd54c;
+    --color3: #ffc400;
+    --color4: #d6be71;
+    --color5: #c4a745;
+    text-shadow: 
+        0 0 5px var(--color1),
+        0 0 10px var(--color2),
+        0 0 20px var(--color3),
+        0 0 40px var(--color4),
+        0 0 50px var(--color5);
 }
 
 .discount-container{
