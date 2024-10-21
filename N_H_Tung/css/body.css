@@ -63,8 +63,18 @@
 .body .body-film p {
     text-align: center; 
     margin: 0 0 20px 0; 
-    -webkit-text-stroke: 1.5px #ffe387;
-    color: transparent;
+    color : #fff;
+    --color1: #ffe387;
+    --color2: #ffd54c;
+    --color3: #ffc400;
+    --color4: #d6be71;
+    --color5: #c4a745;
+    text-shadow: 
+        0 0 5px var(--color1),
+        0 0 10px var(--color2),
+        0 0 20px var(--color3),
+        0 0 40px var(--color4),
+        0 0 50px var(--color5);
 }
 
 /* PHIM */
