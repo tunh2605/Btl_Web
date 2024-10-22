@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SỰ KIỆN</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../N_H_Tung/css/header.css">
+    <link rel="stylesheet" href="../N_H_Tung/css/footer.css">
+    <link rel="stylesheet" href="../N_H_Tung/css/film.css">
+    <link rel="stylesheet" href="css/event.css">
+   
+    <!--FONT & ICON-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+      rel="stylesheet"
+    />
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/logic.js"></script>
+        <script>
+          $(document).ready(function () {
+              $(".toggle-button").click(function () {
+                  var target = $(this).data("target");
+                  $("#" + target).slideToggle("slow");
+              });
+          });
+      </script>
+      <style>
+          .toggle-content {
+              padding: 10px 5px 10px 15px;
+              display: none;
+          }
+      </style>
+<body>      
+    <!--HEADER-->      
+    <div class="banner">
+      <a href="../index.html">CINEMA</a>
+  </div>
+  <div class="header">
+    <div class="header-bar">
+
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li>
+            <a href="../D_X_Nam/film-showing.html">PHIM ĐANG CHIẾU</a>
+          </li>
+          <li>
+            <a href="../D_X_Nam/film-coming-soon.html">PHIM SẮP CHIẾU</a>
+          </li>
+          <li><a href="#">HỆ THỐNG RẠP</a></li>
+          <li><a href="../N_H_Tung/news.html">TIN MỚI VÀ ƯU ĐÃI</a></li>
+          <li><a href="introduce.html">GIỚI THIỆU</a></li>
+        </ul>
+      </div>
+
+      <div class="header-items">
+        <div class="drop">
+          LỊCH CHIẾU
+          <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+          <div class="drop-down">
+              <a href="../D_X_Nam/film-showing.html">PHIM ĐANG CHIẾU</a>
+              <a href="../D_X_Nam/film-coming-soon.html">PHIM SẮP CHIẾU</a>                    
+          </div>
+        </div>     
+      </div>
+
+      <div class="header-items">
+        <a href="#">HỆ THỐNG RẠP</a>
+      </div>
+
+      <div class="header-items">
+        <a href="../N_H_Tung/news.html">TIN MỚI & ƯU ĐÃI</a>
+      </div>
+
+      <div class="header-items">
+        <a href="../N_H_Tung/introduce.html">GIỚI THIỆU</a>
+      </div>
+    </div>        
+  </div>
+
+    <!--BODY-->
+    <!--EVENT-->
+    <div class="product">
+      <h1><a href="promotion.html">KHUYẾN MÃI</a> | <a href="logic.html">SỰ KIỆN</a></h1>
+  </div>
+  <div class="container">
+      <div class="tab-content">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="product-item">
+                      <div class="product-style">
+                          <img src="img/sukien1.jpg" alt="picture" class="product-item">
+                          <button class="toggle-button button" data-target="content1">Chi tiết</button>
+                          <div id="content1" class="toggle-content">
+                              <p>Chi tiết:</p>
+                              <p>21.10 đến 31.10.2023, giảm 25% combo bắp nước.</p>
+                              <p>30 & 31.10.2023, nhận 2 phần bắp miễn phí khi hóa trang.</p>
+                              <p>• Chỉ áp dụng vào khung giờ từ 17-23h.</p>
+                          </div>
+                      </div>
+                      <div>
+                          <h3>Galaween: Dare Or Scare - Nhận Ngay Bắp Free!</h3>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="product-item">
+                      <div class="product-style">
+                          <img src="img/sukien2.jpg" alt="picture" class="product-item">
+                          <button class="toggle-button button" data-target="content2"> Chi tiết</button>
+                          <div id="content2" class="toggle-content">
+                              <p>Chi tiết:</p>
+                              <p>• Áp dụng mỗi thứ 3 hàng tuần.</p>
+                              <p>• Áp dụng cho tất cả khách hàng.</p>
+                              <p>• Ban quản lý có thể linh động điều chỉnh điều kiện trong dịp lễ.</p>
+                          </div>
+                      </div>
+                      <div>
+                          <h3>Happy day</h3>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="product-item">
+                      <div class="product-style">
+                          <img src="img/sukien3.jpg" alt="picture" class="product-item">
+                          <button class="toggle-button button" data-target="content3"> Chi tiết</button>
+                          <div id="content3" class="toggle-content">
+                              <p>Chi tiết:</p>
+                              <p>Kế thừa những giá trị tốt đẹp của tác phẩm Đất Rừng Phương Nam, phim điện ảnh Đất
+                                  Rừng Phương Nam kết hợp với Nhà Xuất bản Kim Đồng cho ra đời Ấn bản đặc biệt Đất
+                                  Rừng phương Nam -2023. Được sử dụng hơn 20 minh họa từ trong phim điện ảnh Đất
+                                  Rừng Phương Nam của đạo diễn Nguyễn Quang Dũng.</p>
+                          </div>
+                      </div>
+                      <div>
+                          <h3>Ấn bản sách đồng hành cùng phim điện</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="product-item">
+                      <div class="product-style">
+                          <img src="img/sukien4.jpg" alt="picture" class="product-item">
+                          <button class="toggle-button button" data-target="content4"> Chi tiết</button>
+                          <div id="content4" class="toggle-content">
+                              <p>Chi tiết:</p>
+                              <p>• Giảm 10.000đ từ T2 - T6 hàng tuần</p>
+                              <p>• Giảm 15.000đ từ T7 - CN (áp dụng cho combo)</p>
+                              <p>Điều kiện:</p>
+                              <p>• Mỗi khách hàng chỉ được sử dụng 1 lần.</p>
+                              <p>• Không áp dụng với chương trình khác.</p>
+                          </div>
+                      </div>
+                      <div>
+                          <h3>VNPAY Tặng Deal Khủng!</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="product-item">
+                      <div class="product-style">
+                          <img src="img/sukien5.jpg" alt="picture" class="product-item">
+                          <button class="toggle-button button" data-target="content5"> Chi tiết</button>
+                          <div id="content5" class="toggle-content">
+                              <p>Chi tiết:</p>
+                              <p>B1: Truy cập website Hulikita</p>
+                              <p>B2: Chọn rạp và phim muốn xem</p>
+                              <p>B3: Chọn khung giờ chiếu phim</p>
+                              <p>B4: Chọn ghế</p>
+                              <p>B5: Chọn voucher gói phim</p>
+                              <p>B6: Thực hiện Thanh toán</p>
+                          </div>
+                      </div>
+                      <div>
+                          <h3>Một phim tại rạp - ngàn phim tại nhà</h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-cskh-container">
+          <p class="footer-container-title">
+            Chăm sóc khách hàng
+          </p>
+          <div class="footer-content">
+            <p><b>Hotline:</b> 0325 723 681</p>
+            <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
+            <p><b>Email:</b> contact@cinema.com</p>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-contact-title">
+            Kết nối với chúng tôi
+          </p>
+          <div class="footer-social">
+
+            <a href="#">
+              <img src="../N_H_Tung/img/fb-icon.png" alt="">
+            </a>
+  
+            <a href="#">
+              <img src="../N_H_Tung/img/yt-icon.png" style="border-radius: 5px;" alt="">
+            </a>
+  
+            <a href="#">
+              <img src="../N_H_Tung/img/tt-icon.png" alt="">
+            </a>
+  
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script src="../N_H_Tung/js/menu.js"></script>
+    <script src="../N_H_Tung/js/trailer.js"></script>
+</body>
+</html>
