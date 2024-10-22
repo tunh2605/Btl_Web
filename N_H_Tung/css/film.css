@@ -57,8 +57,11 @@
 }
 .button-part{
     margin-top: 10px;
+    display: flex;
 }
+
 .button-part button{
+    cursor: pointer;
     padding: 10px 40px;
     background-color: rgb(249, 235, 209);
     border: 2px solid #8e7821;
@@ -70,7 +73,7 @@
 }
 
 .trailer_container {
-    display: none; /* Ẩn mặc định */
+    display: none; 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -85,9 +88,9 @@
     z-index: 1000;
 }
 
-/* Nền mờ đằng sau modal */
+/* Nền mờ */
 .modal-overlay {
-    display: none; /* Ẩn mặc định */
+    display: none; 
     position: fixed;
     top: 0;
     left: 0;
@@ -97,7 +100,6 @@
     z-index: 999;
 }
 
-/* Định kiểu cho video */
 .video_wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 ratio */
@@ -120,7 +122,7 @@
 .close-btn {
     background: none;
     color: black;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -143,3 +145,74 @@
         padding: 20px;
     }
  }
+
+
+.modal{
+    > .modal-dialog{
+        > .modal-content{
+            background-color: #575757;
+            .modal-body{
+                > h1{
+                    font-weight: bold;
+                    text-align: center;
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;
+                }
+                > .choose-cinema{
+                    text-align: center;    
+                }
+            }
+        }
+    }
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 18px;
+    text-align: center;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+  
+.tab button.active {
+    background-color: #ccc;
+}
+  
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    > a{
+      color: #ffe387;
+    }
+}
+  
+.time-film{
+    > button{
+      height: 50px;
+      border: none;
+      margin-bottom: 10px;
+      margin-left: 5px;
+      > a{
+          text-decoration: none;
+          color: black;
+      }
+    }
+}
+
+#cinema1 {
+    display: block;
+}
