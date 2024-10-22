@@ -20,6 +20,10 @@
     color: #ffe387;
 }
 
+.title {
+    text-transform: capitalize;
+}
+
 .film_title_main h1 a {
     text-decoration: none;
     font-size: 26px;
