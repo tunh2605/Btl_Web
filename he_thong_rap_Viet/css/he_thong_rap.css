@@ -1,0 +1,67 @@
+body {
+    background-image: url(../images/background2.jpg); /* Uncomment this line to use a background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #ffeded; */ /* Uncomment if you want a fallback color */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; /* Remove default margin */
+}
+
+.title {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.card_list {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cards {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 330px;
+    background-color: rgba(53, 114, 149, 0.8); /* Added transparency for better readability */
+    border-radius: 30px;
+    background-clip: content-box;
+}
+
+.card_list a img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border: #357295 solid 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card_list a img:hover {
+    transform: scale(1.1);
+}
+
+.card_footer {
+    height: 20%;
+    background-color: rgba(53, 114, 149, 0.8); /* Added transparency */
+    border-radius: 0 0 10px 10px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card_title {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    text-decoration: none;
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Combined transitions */
+}
+
+.card_title:hover {
+    color: #cbe4ff;
+}

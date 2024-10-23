@@ -1,0 +1,100 @@
+
+.title {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto !important;
+}
+.content-view{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; 
+}
+
+.content-cost{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.list ul {
+    list-style: none;
+    background-color: #f6f8fa;
+    padding: 15px;
+    padding-top: 1px;
+    color: white;
+    border-radius: 5px;
+}
+
+.icon:before {
+    content: "\1f6a9";
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.list ul li{
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list-odd{
+    background-color: #357295;
+}
+
+.list-even{
+    background-color: #5395bb;
+}
+
+@media only screen and (max-width: 1280px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .container{
+        width: 90%;
+    }
+    .list {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .container{
+        width: 98%;
+    }
+    .list {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .list {
+        width: 90%;
+    }
+}
