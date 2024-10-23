@@ -6,7 +6,7 @@
 }
 
 .discount-title, .news-title{
-    text-align: left;
+    text-align:center;
     font-size: 30px;
     margin: 30px;
     letter-spacing: 2px;
@@ -54,7 +54,7 @@
 .discount-items{
     display: block;
     box-sizing: border-box;
-    margin: 0 20px 0 0;
+    margin:  0 10px;
     width: 25%;
 }
 
