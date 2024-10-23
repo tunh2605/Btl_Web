@@ -24,6 +24,12 @@
         0 0 50px var(--color5);
 }
 
+.discount-title div a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
 .discount-container{
     display: flex;
     width: 90%;
