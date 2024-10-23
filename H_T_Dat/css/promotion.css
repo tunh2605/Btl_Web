@@ -66,17 +66,20 @@ span.left{
 }
 
 .button1{
-    background-color:#7f7d7d;
-    border: 1px solid #0d3347;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 10px 20px 10px 20px;
-    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 40px;
+    background-color: rgb(249, 235, 209);
+    border: 2px solid #8e7821;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    color: black;
+    font-size: 15px;
+    font-family: 'LT Neo Rounded', sans-serif !important;
 }
 
 .button1:hover {
-    background-color: #0d3347;
-    color: white;
+    background-color: #ffe387;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 575px) {
