@@ -1,0 +1,36 @@
+#myForm {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    border-radius: 5px;
+}
+
+.input1 {
+    width: 100%;
+    padding: 8px; 
+    margin-top: 5px; /
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+.input2 {
+    margin-top: 5px; 
+}
+
+.submit {
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer; 
+}
+
+.submit:hover {
+    background-color: #45a049; 
+}
+input{
+    color:black;
+}
