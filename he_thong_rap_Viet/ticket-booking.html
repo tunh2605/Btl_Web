@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mua vé</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="../N_H_Tung/css/footer.css">
+  <link rel="stylesheet" href="../N_H_Tung/css/header.css">
+  <link rel="stylesheet" href="css/ticket-booking.css">
+  
+  <!--FONT & ICON-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.cdnfonts.com/css/lt-neo-rounded"
+    rel="stylesheet"
+  />
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="banner">
+      <a href="../index.html">CINEMA</a>
+    </div>
+    <nav class="header">
+      <div class="header-bar">
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="../D_X_Nam/film-showing.html">PHIM ĐANG CHIẾU</a></li>
+            <li><a href="../D_X_Nam/film-coming-soon.html">PHIM SẮP CHIẾU</a></li>
+            <li><a href="../he_thong_rap_Viet/index.html">HỆ THỐNG RẠP</a></li>
+            <li><a href="../N_H_Tung/news.html">TIN MỚI & ƯU ĐÃI</a></li>
+            <li><a href="../N_H_Tung/introduce.html">GIỚI THIỆU</a></li>
+          </ul>
+        </div>
+        <div class="header-items">
+          <div class="drop">
+            LỊCH CHIẾU <i class="fas fa-angle-down" style="margin-left: 5px"></i>
+            <div class="drop-down">
+              <a href="../D_X_Nam/film-showing.html">PHIM ĐANG CHIẾU</a>
+              <a href="../D_X_Nam/film-coming-soon.html">PHIM SẮP CHIẾU</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-items"><a href="../he_thong_rap_Viet/index.html">HỆ THỐNG RẠP</a></div>
+        <div class="header-items"><a href="../N_H_Tung/news.html">TIN MỚI VÀ ƯU ĐÃI</a></div>
+        <div class="header-items"><a href="../N_H_Tung/introduce.html">GIỚI THIỆU</a></div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <!-- Body -->
+  
+
+  <div class="center">
+    <div class="tickets">
+      <div class="ticket-selector">
+        <div class="head">
+          <div class="title"></div>
+        </div>
+        <div class="seats">
+          <div class="status">
+            <div class="item">Còn trống</div>
+            <div class="item">Đã chọn</div>
+            <div class="item">Bạn chọn</div>
+          </div>
+          <div class="all-seats">
+            <input type="checkbox" name="tickets" id="s1" />
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        <div class="total">
+          <span> Tổng số vé: <span class="count">0</span> Vé </span>
+          <span>Số tiền: <span class="amount"></span>.000 đ</span>
+        </div>
+        <a href="../N_H_Tung/news.html">Tham khảo thêm ưu đãi</a>
+        <a href="../H_T_Dat/logic.html" target="_blank" id="xac-nhan-link"><button type="button" id="xac-nhan-button">XÁC NHẬN</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- End Body -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-cskh-container">
+        <p class="footer-container-title">
+          Chăm sóc khách hàng
+        </p>
+        <div class="footer-content">
+          <p><b>Hotline:</b> 0325 723 681</p>
+          <p><b>Giờ làm việc:</b> 8h00 - 22h00 tất cả các ngày trong tuần</p>
+          <p><b>Email:</b> contact@cinema.com</p>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-contact-title">
+          Kết nối với chúng tôi
+        </p>
+        <div class="footer-social">
+
+            <a href="#">
+              <img src="../N_H_Tung/img/fb-icon.png" alt="">
+            </a>
+  
+            <a href="#">
+              <img src="../N_H_Tung/img/yt-icon.png" style="border-radius: 5px;" alt="">
+            </a>
+  
+            <a href="#">
+              <img src="../N_H_Tung/img/tt-icon.png" alt="">
+            </a>
+  
+          </div>
+      </div>
+  </div>
+  <!-- End Footer -->
+  <script src="../N_H_Tung/js/menu.js"></script>
+  <script src="ticket-booking.js"></script>
+</body>
+</html>
