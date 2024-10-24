@@ -24,10 +24,27 @@
         0 0 50px var(--color5);
 }
 
-.discount-title div a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
+.discount-title{    
+    display: flex;
+    > div{
+        > a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #fff;
+            padding: 0 10px;
+        }
+    }
+    > .km{
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        border-right: 2px solid #fff ;
+    }
+    > .sk{
+        display: flex;
+        width: 50%;
+        justify-content: left;
+    }
 }
 
 .discount-container{

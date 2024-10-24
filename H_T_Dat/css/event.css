@@ -1,5 +1,4 @@
 .product {
-        text-align:center;
         font-size: 30px;
         margin: 30px;
         letter-spacing: 2px;
@@ -23,11 +22,34 @@ h3{
 .product > h1 > a {
     font-weight: 300;
     text-decoration: none;
-    color:#EFEEE8;
+    color:#fff;
 }
 
-.product > h1 > a:hover {
-    color: #135e87;
+.product {
+    display: flex;
+    > div{
+        > a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #fff;
+            padding: 0 10px;
+        }
+    }
+    > .km{
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        border-right: 2px solid #fff ;
+    }
+    > .sk{
+        display: flex;
+        width: 50%;
+        justify-content: left;
+    }
+}
+
+.tab-content{
+    margin: 0 auto !important;
 }
 
 .product-style {
@@ -64,7 +86,7 @@ img.product-item {
 .product-item div > h3 {
     font-size: 24px;
     font-weight: 500;
-    color: #74642F;
+    color: #ffe387;
     margin: 0;
 }
 
