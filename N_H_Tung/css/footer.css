@@ -6,14 +6,15 @@
 }
 
 .footer-container{
-    width: 60%;
+    width: 70%;
     height: 180px;
     margin: 0 auto;
+    display: flex;
 }
 
 .footer-cskh-container{
     float: left;
-    width: 55%;
+    width: 60%;
 }
 
 .footer .footer-container-title{
@@ -28,7 +29,7 @@
 
 .footer .footer-contact{
     float: right;
-    width: 45%;
+    width: 40%;
 }
 
 .footer-contact-title{
@@ -43,13 +44,25 @@
 }
 
 .footer-social img{ 
-    width: 40px;
+    width: 35px;
     height: auto;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 @media only screen and (max-width: 991px){
     .footer-container {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 749px){        
+    .footer .footer-container-title, .footer-contact-title{ 
+        font-size: 15px;
+    }
+    .footer .footer-content {
+        font-size: 12px;
+    }
+    .footer-social img{ 
+        width: 30px;
     }
 }
