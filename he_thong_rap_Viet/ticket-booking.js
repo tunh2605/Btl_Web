@@ -1,3 +1,9 @@
+function formatAmount(n) {
+  return n.toFixed(0).replace(/./g, function(c, i, a) {
+    return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+  });
+}
+
 let seats = document.querySelector(".all-seats");
 for (var i = 0; i < 80; i++) {
   let randint = Math.floor(Math.random() * 4);
@@ -16,12 +22,12 @@ for (var i = 0; i < 80; i++) {
   seats.appendChild(labelElement);
 }
 
-var ticket_price = 10;
+var ticket_price = 10000;
 let tickets = seats.querySelectorAll("input");
+let amount = document.querySelector(".amount").innerHTML;
+let count = document.querySelector(".count").innerHTML;
 tickets.forEach((ticket) => {
   ticket.addEventListener("change", () => {
-    let amount = document.querySelector(".amount").innerHTML;
-    let count = document.querySelector(".count").innerHTML;
     amount = Number(amount);
     count = Number(count);
 
@@ -38,8 +44,14 @@ tickets.forEach((ticket) => {
     } else {
       ticket.checked = false;
     }
-    document.querySelector(".amount").innerHTML = amount;
-    document.querySelector(".count").innerHTML = count;
+    if(count >= 0 && amount >= 0){
+      document.querySelector(".amount").innerHTML = formatAmount(amount);
+      document.querySelector(".count").innerHTML = count;
+    }else{
+      count = 0; amount = 0;
+      document.querySelector(".amount").innerHTML = "0";
+      document.querySelector(".count").innerHTML = "0";
+    }
   });
 });
 
