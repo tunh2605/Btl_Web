@@ -4,6 +4,27 @@
     height: 80vh;
 }
 
+@media screen and ( min-width : 991px ){
+    .swiper-main{
+        height: 600px;
+        transition: height 1.5s ease-in-out;
+    }
+}
+
+@media screen and ( max-width : 991px ){
+    .swiper-main{
+        height: 450px;
+        transition: height 1.5s ease-in-out;
+    }
+}
+
+@media screen and ( max-width : 749px ){
+    .swiper-main{
+        height: 300px;
+        transition: height 1.5s ease-in-out;
+    }
+}
+
 .swiper-button-next, .swiper-button-prev {
     color: white !important;
     transition: 0.3s ease;
